@@ -1,11 +1,11 @@
-#Python 3.7.1
+#Версия python 3.7.1
 import re, csv
 
 legend = {
-    'A': 'Addition',
+    'A': 'Added',
     'C': 'Conflict',
-    'D': 'Deletion',
-    'M': 'Modification',
+    'D': 'Deleted',
+    'M': 'Modified',
     'R': 'Replaced',
     'X': 'Externals',
     'I': 'Ignored',
